@@ -2,6 +2,10 @@
   padding: 25px;
 }
 
+.rightLogo {
+  opacity: 0.4;
+}
+
 .upperContainer {
   display: flex;
   justify-content: space-between;
