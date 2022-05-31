@@ -1,4 +1,3 @@
-import styles from "./Help.module.css";
 import Fab from "@mui/material/Fab";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 
@@ -12,7 +11,6 @@ const Help = () => {
         margin: "25px",
         backgroundColor: "#444242 !important"
       }}
-      className={styles.HelpButton}
       variant="extended"
       color="primary"
       aria-label="add"
