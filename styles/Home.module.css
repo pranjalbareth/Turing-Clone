@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Gordita";
+  src: url("../fonts/Gordita/Gordita-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gordita-Bold";
+  src: url("../fonts/Gordita/Gordita-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gordita-Medium";
+  src: url("../fonts/Gordita/Gordita-Medium.otf");
+  font-weight: medium;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: "Gordita-Light";
+  src: url("../fonts/Gordita/Gordita-Light.otf");
+}
+
+.mainWrapper {
+  font-family: "Gordita-Medium", sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.StepperConatiner {
+  width: 100%;
+  background: #fff 0 0 no-repeat padding-box !important;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.StepperHeading {
+  padding: 0px 0px 40px 30px;
+  font-size: 20px;
+  color: #212121;
+  opacity: 1;
+}
+
+.StepperSubHeading {
+  opacity: 0.37;
+}
+
+.homeBox {
+  padding: 63px;
+  border: 1px solid #eaeaea;
+  background: white;
+  border-radius: 18px;
+  box-shadow: rgb(232 232 232) 0px 1px 9px;
+}
+
+.homeboxlinks {
+  text-decoration: none !important;
+  color: #1890ff !important;
+}
+
+@media (max-width: 650px) {
+  .StepperConatiner {
+    padding: 10px;
+  }
+
+  .StepperHeading {
+    padding: 0px 0px 20px 10px;
+  }
+}

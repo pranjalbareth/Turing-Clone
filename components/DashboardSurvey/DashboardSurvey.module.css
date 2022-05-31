@@ -1,0 +1,81 @@
+.mainConatiner {
+  margin-top: 20px;
+  background: transparent linear-gradient(255deg, #56a8f7, #6c7bd4) 0 0
+    no-repeat padding-box !important;
+  box-shadow: 0 0 24px rgb(0 0 0 / 4%);
+  border-radius: 8px;
+  opacity: 1;
+  min-height: 260px;
+  height: auto;
+  width: 100%;
+  /* max-width: 960px; */
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerHeading {
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.conatinerSubHeading {
+  max-width: 420px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Gordita";
+  letter-spacing: 0;
+  padding-bottom: 25px;
+}
+
+.button {
+  max-width: 120px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  background-color: #576cb6;
+  color: #fff;
+  text-align: center;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.conatinerRight {
+  background: #fff 0 0 no-repeat padding-box;
+  box-shadow: 0 0 20px rgb(0 0 0 / 4%);
+  border-radius: 8px;
+  padding: 10px 20px;
+  height: 180px;
+  width: 175px;
+}
+
+.containerRightHeading {
+  color: #888;
+  font-size: 20px;
+}
+
+.containerRightSubHeading {
+  font-size: 14px;
+  color: #888;
+  padding-top: 20px;
+}
+
+.containerRightContent {
+  font-size: 20px;
+  color: #888;
+}
+
+@media (max-width: 650px) {
+  .containerHeading {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  .conatinerSubHeading {
+    font-size: 12px;
+    color: #fff;
+    font-family: "Gordita";
+    letter-spacing: 0;
+    padding-bottom: 15px;
+  }
+}

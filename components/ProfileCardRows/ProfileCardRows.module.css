@@ -1,0 +1,109 @@
+.mainComponent {
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightLogo {
+  opacity: 0.4;
+}
+
+.leftContainer {
+  display: inline-flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightContainer {
+  padding-right: 20px;
+}
+
+.leftHeading {
+  padding-left: 10px;
+}
+
+.leftHeadingWhenSub {
+  padding-left: 22px;
+}
+
+.leftHeadingMain {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.leftHeadingSub {
+  font-weight: 400;
+  font-size: 14px;
+}
+.rightHeading {
+  justify-content: right;
+  display: flex;
+  font-size: 15px;
+}
+
+.rightsubHeading {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.editContainer {
+  cursor: pointer;
+}
+
+.divider {
+  border: 1px solid #f3f3f3;
+  background: #f3f3f3;
+  width: 100%;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.LinkedInContainer {
+  cursor: pointer;
+}
+
+.email {
+  padding-left: 10px;
+}
+
+@media (max-width: 650px) {
+  .mainComponent {
+    padding: 10px;
+  }
+
+  .leftHeading {
+    font-size: 14px;
+  }
+
+  .rightHeading {
+    font-size: 12px;
+  }
+
+  .rightsubHeading {
+    font-size: 12px;
+  }
+
+  .email {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+  .rightContainer {
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,59 @@
+.mainComponent {
+  padding: 25px;
+}
+
+.upperContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.experienced {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.subHeading {
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.list {
+  display: flex;
+}
+
+.listitems {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.65);
+  border: 1px solid #d9d9d9;
+  margin: 0px 5px;
+  padding: 0 7px;
+  font-size: 12px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+@media (max-width: 650px) {
+  .mainComponent {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .subHeading {
+    font-size: 14px;
+  }
+
+  .listitems {
+    font-size: 10px;
+  }
+}

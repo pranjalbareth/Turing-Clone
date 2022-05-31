@@ -1,0 +1,32 @@
+.techStackMainComponent {
+  margin-top: 20px;
+  pointer-events: none;
+  opacity: 0.4;
+  color: #212121;
+}
+
+.techStackHeadingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.techStackHeading {
+  padding-right: 10px;
+}
+
+.techStackSpanHeading {
+  padding-left: 10px;
+  font-size: 14px;
+  color: grey;
+}
+
+.techStackSubHeadingContainer {
+  font-size: 14px;
+}
+
+.techStackLowerContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
