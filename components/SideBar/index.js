@@ -91,7 +91,7 @@ const SideBar = () => {
         {open ? (
           <>
             <img
-              src="https://svgshare.com/i/hri.svg"
+              src="https://developers.turing.com/static/media/turing_logo_text.65329785.svg"
               alt="Turing"
               width={"110vw"}
               height={"auto"}
@@ -146,7 +146,7 @@ const SideBar = () => {
               <div className={styles.shadowButton}></div>
               <img
                 src="https://developers.turing.com/static/media/available_for_work.74e15aac.svg"
-                alt="Turing"
+                alt="Job"
               />
             </Button>
           </div>
