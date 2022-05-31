@@ -5,6 +5,13 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 const Help = () => {
   return (
     <Fab
+      sx={{
+        position: "fixed",
+        bottom: 0,
+        right: 0,
+        margin: "25px",
+        backgroundColor: "#444242 !important"
+      }}
       className={styles.HelpButton}
       variant="extended"
       color="primary"
