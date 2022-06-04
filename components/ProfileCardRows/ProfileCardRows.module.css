@@ -81,6 +81,11 @@
   padding-left: 10px;
 }
 
+.EditModal{
+  border: none !important;
+  border-radius: 12px;
+}
+
 @media (max-width: 650px) {
   .mainComponent {
     padding: 10px;
