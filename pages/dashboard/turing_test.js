@@ -15,13 +15,7 @@ const about = () => {
       <SideBar />
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <div className={styles.mainWrapper}>
-          <div className={styles.StepperConatiner}>
-            <div className={styles.StepperHeading}>
-              Tests Progress &nbsp;{" "}
-              <span className={styles.StepperSubHeading}>25%</span>
-            </div>
-            <DashboardStepper />
-          </div>
+          <DashboardStepper/>
           <DashboardSurvey />
           <DashboardTechAssessment />
         </div>
