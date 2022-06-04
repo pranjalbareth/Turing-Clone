@@ -1,6 +1,7 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
-import Link from "next/link";
+import Link from 'next/link';
+import { useRouter } from "next/router";
 import styles from "./SideBar.module.css";
 
 // Material-UI Components
@@ -83,7 +84,7 @@ const SideBar = () => {
   const handleDrawerToggle = () => {
     setOpen((prev) => !prev);
   };
-
+  const router = useRouter();
   return (
     <Box className={styles.MainBox} sx={{ display: "flex" }}>
       <CssBaseline />
@@ -152,8 +153,8 @@ const SideBar = () => {
           </div>
         )}
         <List>
+            <ListItem  className={router.pathname == "/" ? `${styles.active}` : ""} key={"Home"} disablePadding sx={{ display: "block" }}>
           <Link href="/">
-            <ListItem key={"Home"} disablePadding sx={{ display: "block" }}>
               <ListItemButton
                 className={styles.ListItemButton}
                 sx={{
@@ -178,11 +179,11 @@ const SideBar = () => {
                   sx={{ fontFamily: "Gordita-Light", opacity: open ? 1 : 0 }}
                 />
               </ListItemButton>
-            </ListItem>
           </Link>
+            </ListItem>
           <Divider />
+          <ListItem  className={router.pathname == "/dashboard/profile" ? `${styles.active}` : ""} key={"Profile"} disablePadding sx={{ display: "block" }}>
           <Link href="/dashboard/profile">
-            <ListItem key={"Profile"} disablePadding sx={{ display: "block" }}>
               <ListItemButton
                 sx={{
                   minHeight: 48,
@@ -213,14 +214,10 @@ const SideBar = () => {
                   sx={{ opacity: open ? 1 : 0 }}
                 />
               </ListItemButton>
-            </ListItem>
           </Link>
+            </ListItem>
+          <ListItem  className={router.pathname == "/dashboard/turing_test" ? `${styles.active}` : ""} key={"Turing Test"} disablePadding sx={{ display: "block" }}>
           <Link href="/dashboard/turing_test">
-            <ListItem
-              key={"Turing Tests"}
-              disablePadding
-              sx={{ display: "block" }}
-            >
               <ListItemButton
                 sx={{
                   minHeight: 48,
@@ -252,8 +249,8 @@ const SideBar = () => {
                   sx={{ opacity: open ? 1 : 0 }}
                 />
               </ListItemButton>
-            </ListItem>
           </Link>
+            </ListItem>
           {["Coding Challenges", "Get Matched"].map((text, index) => (
             <ListItem
               key={text}
