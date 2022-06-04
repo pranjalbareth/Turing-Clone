@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Head from "next/head";
 
 // Material-UI Components
 import Box from "@mui/material/Box";
@@ -10,6 +11,11 @@ import Help from "../components/Help";
 
 export default function IndexPage() {
   return (
+    <>
+    <Head>
+      <title>Turing Remote Developer Jobs | Apply to Elite U.S. Companies</title>
+      <link rel="icon" href="https://i.imgur.com/YZA9s2o.png" />
+    </Head>
     <div style={{ fontFamily: '"Gordita", sans-serif' }}>
       <Box
         sx={{
@@ -70,5 +76,6 @@ export default function IndexPage() {
       </Box>
       <Help />
     </div>
+    </>
   );
 }
