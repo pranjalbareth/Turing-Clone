@@ -96,7 +96,7 @@ QontoStepIcon.propTypes = {
 
 
 export default function DashboardStepper() {
-  const [activeStep, setActiveStep] = React.useState(0);
+  const [activeStep, setActiveStep] = React.useState(1);
 
   
   const classes = useStyles();
